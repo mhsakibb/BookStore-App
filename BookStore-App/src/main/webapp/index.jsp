@@ -1,3 +1,6 @@
+
+<%@page import="java.sql.Connection"%>
+<%@page import="com.DB.DBConnect"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -27,6 +30,12 @@
 		<h2 class="text-center text-white">Lost in the pages, found in
 			the story</h2>
 	</div>
+
+
+<% Connection conn=DBConnect.getConn(); 
+out.println(conn);
+%>
+
 
 	<!--Start Recent Book -->
 
