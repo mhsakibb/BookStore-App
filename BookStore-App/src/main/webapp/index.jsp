@@ -32,11 +32,6 @@
 	</div>
 
 
-<% Connection conn=DBConnect.getConn(); 
-out.println(conn);
-%>
-
-
 	<!--Start Recent Book -->
 
 	<div class="container">
